@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2889442819422817656}
   - component: {fileID: 4086379760015316752}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ButtonRound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 7023112961020291121}
   - component: {fileID: 217491777395628728}
   - component: {fileID: 6697619265432128883}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 1835065945678051663}
   - component: {fileID: 7309555859604815694}
   - component: {fileID: 4574833972999963107}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 5754766330895363572}
   - component: {fileID: 4551640753421279766}
   - component: {fileID: 7776753488002502236}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 1064370792208760230}
   - component: {fileID: 6482590396887484670}
   - component: {fileID: 218989847314519441}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -625,7 +625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1965662469327020889}
   - component: {fileID: 7064087390704100251}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HeaderCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,6 +672,8 @@ GameObject:
   - component: {fileID: 5277121739237271218}
   - component: {fileID: 2780049280947532587}
   - component: {fileID: 5886996860295934918}
+  - component: {fileID: 3280704521598070580}
+  - component: {fileID: 7003661701424024979}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -727,7 +729,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -752,6 +754,57 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &3280704521598070580
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3117700880401252446}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89cfc048af9144250b713cdd4ee0a534, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7003661701424024979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3117700880401252446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7400000, guid: 06bfe5a95e6d64b4bab64eb38369644c, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &3861686456259024286
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,7 +817,7 @@ GameObject:
   - component: {fileID: 4416706277885466023}
   - component: {fileID: 7679303645602313438}
   - component: {fileID: 8756995514911674236}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Scroll View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1020,7 +1073,7 @@ GameObject:
   - component: {fileID: 6693522910788392535}
   - component: {fileID: 8406398253541588936}
   - component: {fileID: 5983614146761620677}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: 'InfoText '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1233,7 +1286,7 @@ GameObject:
   - component: {fileID: 2329215558806566918}
   - component: {fileID: 7888045822399737064}
   - component: {fileID: 4071631713857122854}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2410147056937197894}
   - component: {fileID: 405020973030536945}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CurrencyView (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1392,7 +1445,7 @@ GameObject:
   - component: {fileID: 5790563392237187219}
   - component: {fileID: 2824444718451704596}
   - component: {fileID: 8237871186297340867}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ImagePath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +1520,7 @@ GameObject:
   - component: {fileID: 6930766355688516784}
   - component: {fileID: 4967849270796716381}
   - component: {fileID: 5983219387424617448}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1605,7 +1658,7 @@ GameObject:
   - component: {fileID: 3828046334008435551}
   - component: {fileID: 3379095084433935515}
   - component: {fileID: 3728885199701881254}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: WarehouseWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1716,7 +1769,7 @@ GameObject:
   - component: {fileID: 2500503171372670851}
   - component: {fileID: 1191983838900898602}
   - component: {fileID: 5850004650749796957}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1804,7 +1857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2824776301057760233}
   - component: {fileID: 3993318589335625145}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CurrencyView (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1869,7 +1922,7 @@ GameObject:
   - component: {fileID: 2658092007533251082}
   - component: {fileID: 3161676316872241274}
   - component: {fileID: 6825121012165505504}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EllipseWhite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1942,7 +1995,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7967750457725296417}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BottomBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2022,7 +2075,7 @@ GameObject:
   - component: {fileID: 5261360406009615504}
   - component: {fileID: 8583909173832220585}
   - component: {fileID: 7767288636393868449}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2097,7 +2150,7 @@ GameObject:
   - component: {fileID: 4057732773756912123}
   - component: {fileID: 4340489468729737113}
   - component: {fileID: 130047403111689911}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2172,7 +2225,7 @@ GameObject:
   - component: {fileID: 2130484702001189128}
   - component: {fileID: 4760553831313831677}
   - component: {fileID: 2600007602775439288}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ImageUnion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2246,7 +2299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6282567980565101334}
   - component: {fileID: 4400181177427059928}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CyrrencyGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2313,7 +2366,7 @@ GameObject:
   - component: {fileID: 1253417832577714653}
   - component: {fileID: 3637842048154560935}
   - component: {fileID: 3215660194839286784}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TitleTex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2451,7 +2504,7 @@ GameObject:
   - component: {fileID: 8539283683567933464}
   - component: {fileID: 9168105431075524507}
   - component: {fileID: 7054350110788311536}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2545,7 +2598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8788274085546054645}
   - component: {fileID: 1102969170584695849}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CurrencyView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2610,7 +2663,7 @@ GameObject:
   - component: {fileID: 9220044756336924394}
   - component: {fileID: 748757822986233070}
   - component: {fileID: 263408336161655780}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EllipseBlack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2685,7 +2738,7 @@ GameObject:
   - component: {fileID: 4252904815457982098}
   - component: {fileID: 2417379209248074183}
   - component: {fileID: 3414513589887161916}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2780,7 +2833,7 @@ GameObject:
   - component: {fileID: 3638977162060877934}
   - component: {fileID: 8183417358520563488}
   - component: {fileID: 7792055356863588954}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: MainText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2923,7 +2976,7 @@ GameObject:
   - component: {fileID: 261908831939046636}
   - component: {fileID: 4058709493393573628}
   - component: {fileID: 5795408958957002643}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3060,7 +3113,7 @@ GameObject:
   - component: {fileID: 6332710297537182894}
   - component: {fileID: 6065118230304421387}
   - component: {fileID: 2584526612842140059}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3194,9 +3247,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7967750457725296417}
     m_Modifications:
+    - target: {fileID: 717484635948809466, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050613589116800835, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2839381888629665504, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
       propertyPath: m_Name
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839381888629665504, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3017549250838065359, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
       propertyPath: m_Pivot.x
@@ -3281,13 +3346,75 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2839381888629665504, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8523557701685290019}
+    - targetCorrespondingSourceObject: {fileID: 2839381888629665504, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1600372505032401552}
   m_SourcePrefab: {fileID: 100100000, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
 --- !u!224 &2534341349839727065 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3017549250838065359, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
   m_PrefabInstance: {fileID: 777916613905422614}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3291064532252227574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2839381888629665504, guid: b073cedd4c9534ee6a52f7b49b43b322, type: 3}
+  m_PrefabInstance: {fileID: 777916613905422614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8523557701685290019
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3291064532252227574}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 133efc4b617ef475f8b04f75aa01e664, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1600372505032401552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3291064532252227574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7400000, guid: 0ee951657f148441ca6485d2112b7877, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &2598802135555949920
 PrefabInstance:
   m_ObjectHideFlags: 0
